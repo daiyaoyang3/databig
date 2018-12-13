@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>The first network</title>
+		<!--网页的名字-->
+	</head>
+	<body>
+		<a href="https://www.baidu.com"target="_blank">百度一下</a>
+		<!--a标签，href是网页的链接，target定义在那个页面显示，网页上不显示href的内容，显示的是a开始和结束标签直接的东西-->
+		<a href="#mao1">跳转锚点</a>
+			<!--跳转锚点 在下面应该有一个要对应的锚点name，前面的锚点是href#+下面的锚点名字，在两个标签中间输入点击按钮-->
+			
+		YOu should be cry
+		<!--注释标签 ctrl + /-->
+		<h1>suck is a good man </h1>
+		<!--h1-h6字体会越来越小-->
+		<h2>suck is a good man</h2>
+		<!--标题标签h1-h6，字体会逐渐变小-->
+		<!--h系列的标签同时也是标题标签-->
+		<a name="mao1"></a>
+		<!--锚点-->
+		<p>你好陌生人</p>
+		
+		<p>图片链接还是没有学会</p>
+		suck is a good man<br>suck is a good man
+		<!--换行标签<br>手动换行是无效的-->
+		
+		<!--链接标签-->
+		<a href="https://www.baidu.com"target="_blank">百度一下</a>
+		<!--target的作用：常用_self(在自己的页面打开)_blank(在新页面打开)-->
+		
+		<!--连接图片也可以-->		
+		<!--如果把上面的百度一下变成一个图片，那么点击图片也可以直接进行跳转页面-->
+		
+		<!--列表：无序列表，有序列表，定义列表-->
+		<!--无需列表-->
+		<ul>
+			<li><a href="http://news.cctv.com/2018/11/27/ARTIT2hGv0mONrhQqPpPhAYc181127.shtml"target="_blank">新闻</a></li>
+			<li>suck is a good</li>
+			<li>suck</li>
+		</ul>
+		<!--有序列表type属性决定前面的顺序符号-->
+		<ol type="A">
+			<li>a</li>
+			<li>b</li>
+			
+		</ol>
+		<!--定义列表dt类似列表的名字dd类似列表的内容-->
+		<dl>
+			<dt>学院</dt>
+			<dd>电子信息</dd>
+			<dt>学院啊</dt>
+			<dd>电子信息啊</dd>
+		</dl>
+		
+		
+		<!--表格table  tr是行 td是列  th是表头，表头一般都是居中对齐-->
+		<!--表格的跨列-->
+		<!--cellspacing行间距cellspadding字体距离行列的距离大小-->
+		<table border="5" align="left">
+			<tr>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>年龄</th>
+			</tr>
+			<tr>
+				<td colspan="2">第一行第1列</td>
+				<td>第一行第2列</td>
+				<!--<th>第一行第3列</th>-->
+				<!--<th>第一行第4列</th>-->
+			</tr>
+			<tr>
+				<td>第2行第1列</td>
+				<td>第2行第2列</td>
+				<td rowspan="2">第2行第3列</td>
+				<!--<th>第2行第4列</th>-->
+			</tr>
+			<tr>
+				<td>第3行第1列</td>
+				<td>第3行第2列</td>
+				<!--<th>第3行第3列</th>-->
+				<!--<th>第3行第4列</th>-->
+			</tr>
+			
+		</table>
+	</body>
+</html>
